@@ -1,0 +1,146 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, lv {Latvian} ru {Russian} en {English} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "sip panels": "Sip panels",
+    "Mobile House": "Mobile House",
+    "projects": "Projects",
+    "contact": "Contact",
+    "rights": "©2024, All right reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "IndexPage": {
+    "title": "Test title",
+    "description": "Test describtion",
+    "links": {
+      "docs": {
+        "title": "Test link",
+        "description": "Test describtion",
+        "href": "/"
+      },
+      "source": {
+        "title": "Test link 2",
+        "description": "Test describtion",
+        "href": "/"
+      }
+    }
+  },
+  "ContactForm": {
+    "name_placeholder": "Your name ",
+
+    "email_placeholder": "Email ",
+
+    "phone_placeholder": "Phone",
+
+    "message_placeholder": "Message",
+    "submit_button": "Submit Message",
+    "messageus": "Message Us"
+  },
+  "AboutPage": {
+    "image_alt": "About Image",
+    "heading": "About Us",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "ContactPage": {
+    "title": "Test title"
+  },
+  "MainTitleSection": {
+    "creativity": "CREATIVITY",
+    "beyondYour": "BEYOND YOUR",
+    "limits": "LIMITS",
+    "description1": "Where tradition meets innovation. A heaven ",
+    "description2": "for creativity and craftsmanship, dedicated to bringing",
+    "description3": "your visionary ideas to life with unparalleled expertise"
+  },
+  "ServicesSection": {
+    "whatWeDo": "WHAT WE DO",
+    "services": "Services",
+    "businessCardsDesign": "BUSINESS CARDS DESIGN",
+    "paperCardsTitle": "Paper cards",
+    "paperCardsDescription": "Test test test Test test test Test test test Test test test",
+    "plasticCardsTitle": "Plastic cards",
+    "plasticCardsDescription": "Plastic cards are durable, often with a sleek finish, used for a variety of purposes including credit, membership, and business cards. They offer a modern touch and can incorporate advanced features like NFC technology for contactless interactions.",
+    "metalCardsTitle": "Metal cards",
+    "metalCardsDescription": "Metal cards, crafted from materials like stainless steel or aluminum, exude luxury and durability, often used for premium credit or business cards. Their heft and distinctive feel make a lasting impression during exchanges.",
+    "interiorDesign": "INTERIOR DESIGN",
+    "modernInteriorTitle": "Modern",
+    "modernInteriorDescription": "Known for its emphasis on simplicity, clean lines, and a monochromatic palette complemented by neutral colors. Modern design focuses on materials like metal, glass, and steel, highlighting functionality and minimalism.",
+    "traditionalInteriorTitle": "Traditional",
+    "traditionalInteriorDescription": "Features classic details, luxurious furnishings, and a rich color palette. Traditional interiors include elegant furniture, decorative trims, and various textures, creating a sense of comfort and elegance.",
+    "industrialInteriorTitle": "Industrial",
+    "industrialInteriorDescription": "Inspired by old factories and industrial spaces, this style combines raw and unfinished materials such as wood and metal. Industrial design often features exposed bricks, ducts, and a utilitarian approach, blending rustic and modern elements.",
+    "contemporaryInteriorTitle": "Contemporary",
+    "contemporaryInteriorDescription": "Reflects the design trends of the moment, blending elements from various styles and eras. It focuses on the balance of space, clean architectural lines, and a cohesive, often neutral color scheme.",
+    "exteriorDesign": "EXTERIOR DESIGN",
+    "modernExteriorTitle": "Modern",
+    "modernExteriorDescription": "Modern exterior design is characterized by clean lines, simple geometric shapes, and a minimalistic approach. Materials like glass, steel, and concrete are prominently featured, creating sleek and streamlined facades.",
+    "traditionalExteriorTitle": "Traditional",
+    "traditionalExteriorDescription": "Traditional exteriors draw inspiration from historical architectural styles, such as Colonial, Victorian, or Craftsman. These designs often include classic elements like decorative trim, pitched roofs, and symmetrical windows, exuding elegance and timelessness.",
+    "contemporaryExteriorTitle": "Contemporary",
+    "contemporaryExteriorDescription": "Contemporary exterior design is all about the here and now, with a focus on innovation, sustainability, and integrating the latest materials and technologies. It often features unconventional shapes, dynamic forms, and large expanses of glass to merge indoor and outdoor spaces.",
+    "mediterraneanExteriorTitle": "Mediterranean",
+    "mediterraneanExteriorDescription": "Influenced by the regions around the Mediterranean Sea, this style incorporates stucco walls, red tile roofs, arches, and courtyards. Mediterranean exteriors are known for their warm, earthy tones and a strong connection to the surrounding landscape.",
+    "landscapeDesign": "LANDSCAPE DESIGN",
+    "residentialLandscapeTitle": "Residential Landscape Design",
+    "residentialLandscapeDescription": "Focuses on the design and organization of private outdoor spaces, enhancing the functionality and beauty of gardens, patios, and other outdoor living areas to complement the home’s architecture and the owner’s personal preferences.",
+    "commercialLandscapeTitle": "Commercial Landscape Design",
+    "commercialLandscapeDescription": "Involves planning and designing outdoor spaces for businesses, public parks, and urban areas. The aim is to create welcoming, functional, and sustainable outdoor environments that can accommodate public use and improve the aesthetic appeal of commercial properties.",
+    "environmentalLandscapeTitle": "Environmental Landscape Design",
+    "environmentalLandscapeDescription": "Concentrates on sustainable practices, aiming to create outdoor spaces that are environmentally friendly, conserve water, support local ecosystems, and use materials and plants that are sustainable and native to the area.",
+    "hardscapeDesignTitle": "Hardscape Design",
+    "hardscapeDesignDescription": "Focuses on the non-living elements of landscape design, such as patios, walls, walkways, driveways, and other structures made of wood, stone, concrete, and metal.",
+    "packingDesign": "PACKING DESIGN",
+    "structuralDesignTitle": "Structural Design",
+    "structuralDesignDescription": "This focuses on the shape and stability of the packaging. It involves engineering the packaging to protect the product during transport, ensure its integrity on store shelves, and facilitate storage and usage. Structural design is essential for functionality, as well as for creating an appealing and unique silhouette that can attract consumers.",
+    "graphicDesignTitle": "Graphic Design",
+    "graphicDesignDescription": "This aspect covers the visual elements of packaging, including typography, logos, colors, and images. Graphic design in packaging communicates the brand’s message, product information, and differentiates the product from competitors on the shelf. It’s vital for branding and creating an emotional connection with consumers.",
+    "sustainableDesignTitle": "Sustainable Design",
+    "sustainableDesignDescription": "Increasingly important, sustainable packaging focuses on minimizing environmental impact. This involves using eco-friendly materials, reducing waste through design, and considering the lifecycle of the package. Sustainable design aims to meet current packaging needs without compromising the ability of future generations to meet theirs.",
+    "interactiveDesignTitle": "Interactive Design",
+    "interactiveDesignDescription": "This newer category includes elements that enhance consumer engagement with the product through the packaging. It may incorporate technology, such as QR codes or augmented reality, or physical elements like unique closures, textures, or interactive elements that improve the unboxing experience.",
+    "graphicDesign": "GRAPHIC DESIGN",
+    "brandIdentityTitle": "Brand Identity and Logo Design",
+    "brandIdentityDescription": "Focuses on creating a visual identity for brands, including logos and branding materials to establish recognition.",
+    "webAndUiDesignTitle": "Web and User Interface Design",
+    "webAndUiDesignDescription": "Involves designing digital interfaces, prioritizing aesthetics, usability, and user experience for websites and apps.",
+    "printAndPublicationDesignTitle": "Print and Publication Design",
+    "printAndPublicationDesignDescription": "Deals with designing printed materials like books, brochures, and posters, emphasizing layout and visual appeal."
+  },
+  "AboutSection": {
+    "welcome": "Welcome to se'yul",
+    "about": "ABOUT",
+    "introduction": "WELCOME TO SE'YUL where we specialize in creating unique and captivating designs.",
+    "expertise": "Our expertise lies in delivering professional design solutions that leave a lasting impression and enhance brand identity.",
+    "servicesOffered": "From name cards and business cards to interiors, exteriors, and landscapes, we bring your vision to life with meticulous attention to detail and innovative thinking.",
+    "sustainabilityFocus": "At SE'YUL, we prioritize sustainable, eco-friendly design, using responsible materials to ensure your brand not only shines but also respects the environment.",
+    "tailoredDesign": "We tailor our designs to your brand's ethos through a collaborative process, ensuring a personalized experience that captivates your audience.",
+    "innovation": "Embracing the latest trends and technology, SE'YUL is at the forefront of creative innovation, from interactive digital elements to novel spatial aesthetics."
+  },
+  "ProjectsSection": {
+    "ourPortfolio": "OUR PORTFOLIO",
+    "projects": "PROJECTS",
+    "exteriorDesign": "Exterior design",
+    "interiorDesign": "Interior design",
+    "modernExteriorDesign": "Modern exterior design",
+    "brandIdentity": "Brand Identity and Logo Design",
+    "minimalism": "Minimalism",
+    "luxuryDesign": "Luxury exterior and landscape design"
+  },
+  "Footer": {
+    "getInTouch": "GET IN TOUCH",
+    "contact": "CONTACT",
+    "projects": "projects",
+    "latviaEurope": "LATVIA, EUROPE",
+    "rigaLatvia": "Riga, Latvia",
+    "information": "INFORMATION",
+    "rightsReserved": "2024 SIA SeYul All rights reserved"
+  }
+}

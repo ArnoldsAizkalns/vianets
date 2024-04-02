@@ -1,0 +1,146 @@
+{
+  "LocaleSwitcher": {
+    "label": "Mainīt valodu",
+    "locale": "{locale, select, lv {Latviešu} ru {Krievu} en {Angļu} other {Nezināms}}"
+  },
+  "LocaleLayout": {
+    "title": "next-intl piemērs"
+  },
+  "Navigation": {
+    "home": "Galvenā",
+    "about": "Par mums",
+    "sip panels": "Sip paneļi",
+    "Mobile House": "mobilā māja",
+    "projects": "Projekti",
+    "contact": "Kontakti",
+    "rights": "©2024, All right reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "IndexPage": {
+    "title": "Testa nosaukums",
+    "description": "Testa apraksts",
+    "links": {
+      "docs": {
+        "title": "Testa saite",
+        "description": "Testa apraksts",
+        "href": "/"
+      },
+      "source": {
+        "title": "Testa saite 2",
+        "description": "Testa apraksts",
+        "href": "/"
+      }
+    }
+  },
+  "ContactForm": {
+    "name_placeholder": "Vards",
+
+    "email_placeholder": "E-pasts",
+
+    "phone_placeholder": "Talrunis",
+
+    "message_placeholder": "Ziņa",
+    "submit_button": "Sutit Ziņu",
+    "messageus": "Saziņies ar mūms"
+  },
+  "AboutPage": {
+    "image_alt": "About Image",
+    "heading": "Par mums",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "ContactPage": {
+    "title": "Testa nosaukums"
+  },
+  "MainTitleSection": {
+    "creativity": "RADOŠUMS",
+    "beyondYour": "AIZ IESPĒJU",
+    "limits": "ROBĀM",
+    "description1": "Tur, kur tradīcijas satiekas ar inovācijām. Debesis",
+    "description2": "radošumam un meistarībai, veltītas jūsu vizionāro ideju",
+    "description3": "īstenošanai ar nepārspējamu prasmju palīdzību"
+  },
+  "ServicesSection": {
+    "whatWeDo": "KO MĒS DARĀM",
+    "services": "Pakalpojumi",
+    "businessCardsDesign": "VIZĪTKARŠU DIZAINS",
+    "paperCardsTitle": "Papīra kartītes",
+    "paperCardsDescription": "Test test test Test test test Test test test Test test test",
+    "plasticCardsTitle": "Plastikāta kartītes",
+    "plasticCardsDescription": "Plastikāta kartes ir izturīgas, bieži ar gludu apdari, ko izmanto dažādiem mērķiem, tostarp kredītkartēm, biedru kartēm un biznesa kartēm. Tās piedāvā mūsdienīgu pieskārienu un var iekļaut progresīvas funkcijas, piemēram, NFC tehnoloģiju bezkontakta mijiedarbībai.",
+    "metalCardsTitle": "Metāla kartītes",
+    "metalCardsDescription": "Metāla kartes, kas izgatavotas no materiāliem, piemēram, nerūsējošā tērauda vai alumīnija, izstaro greznību un izturību, bieži tiek izmantotas premium klases kredītkartēm vai biznesa kartēm. To smagums un atšķirīgā sajūta rada ilgstošu iespaidu.",
+    "interiorDesign": "INTERJERA DIZAINS",
+    "modernInteriorTitle": "Mūsdienīgs",
+    "modernInteriorDescription": "Pazīstams ar uzsvaru uz vienkāršību, tīrām līnijām un monohromatisku paleti, ko papildina neitrālas krāsas. Mūsdienīgs dizains koncentrējas uz materiāliem, piemēram, metālu, stiklu un tēraudu, izceļot funkcionalitāti un minimālismu.",
+    "traditionalInteriorTitle": "Tradicionāls",
+    "traditionalInteriorDescription": "Iezīmē klasiskas detaļas, greznas mēbeles un bagātīgu krāsu palešu. Tradicionālie interjeri iekļauj elegantas mēbeles, dekoratīvas apmales un dažādas tekstūras, radot komforta un elegances sajūtu.",
+    "industrialInteriorTitle": "Industriāls",
+    "industrialInteriorDescription": "Iedvesmojies no vecām fabrikām un industriālām telpām, šis stils apvieno neapstrādātus un nepabeigtus materiālus, piemēram, koku un metālu. Industriālais dizains bieži iekļauj atklātas ķieģeļu sienas, ventilācijas caurules un utilitāru pieeju, apvienojot rupju un mūsdienīgu elementus.",
+    "contemporaryInteriorTitle": "Kontemporārs",
+    "contemporaryInteriorDescription": "Atspoguļo brīža dizaina tendences, apvienojot elementus no dažādiem stiliem un laikmetiem. Kontemporārais dizains koncentrējas uz telpas līdzsvaru, tīrām arhitektūras līnijām un saskaņotu, bieži vien neitrālu krāsu shēmu.",
+    "exteriorDesign": "EKSTERJERA DIZAINS",
+    "modernExteriorTitle": "Mūsdienīgs",
+    "modernExteriorDescription": "Mūsdienīgs eksterjera dizains ir raksturīgs ar tīrām līnijām, vienkāršām ģeometriskām formām un minimālistisku pieeju. Materiāli, piemēram, stikls, tērauds un betons, ir izteikti, radot gludas un straumētas fasādes.",
+    "traditionalExteriorTitle": "Tradicionāls",
+    "traditionalExteriorDescription": "Tradicionālie eksterjeri iedvesmojas no vēsturiskiem arhitektūras stiliem, piemēram, koloniālā, viktoriāņu vai amatniecības. Šie dizaini bieži iekļauj klasiskus elementus, piemēram, dekoratīvas apmales, slīpas jumta segas un simetriskus logus, izstarojot eleganci un laikmetīgumu.",
+    "contemporaryExteriorTitle": "Kontemporārs",
+    "contemporaryExteriorDescription": "Kontemporārais eksterjera dizains ir koncentrēts uz inovāciju, ilgtspējību un jaunāko materiālu un tehnoloģiju integrāciju. Bieži iekļauj nestandarta formas, dinamiskas formas un lielas stikla virsmas, lai apvienotu iekštelpas un ārtelpas.",
+    "mediterraneanExteriorTitle": "Vidusjūras",
+    "mediterraneanExteriorDescription": "Iedvesmots no reģioniem ap Vidusjūru, šis stils iekļauj apmetuma sienas, sarkano jumta flīžu, arkas un iekšpagalmus. Vidusjūras eksterjeri ir pazīstami ar siltajiem, zemes toņiem un stipru saikni ar apkārtējo ainavu.",
+    "landscapeDesign": "LANDŠAFTA DIZAINS",
+    "residentialLandscapeTitle": "Dzīvojamo ēku landšafta dizains",
+    "residentialLandscapeDescription": "Koncentrējas uz privātu ārtelpu dizainu un organizāciju, uzlabojot dārzu, terašu un citu āra dzīvošanas zonu funkcionalitāti un skaistumu, lai papildinātu mājas arhitektūru un īpašnieka personiskās preferences.",
+    "commercialLandscapeTitle": "Komerciālais landšafta dizains",
+    "commercialLandscapeDescription": "Ietver uzņēmumu, publisko parku un pilsētu zonu ārtelpu plānošanu un dizainu. Mērķis ir radīt aicinošas, funkcionalitātes un ilgtspējīgas ārtelpas, kas var akomodēt sabiedrisko lietošanu un uzlabot komercīpašumu estētisko pievilcību.",
+    "environmentalLandscapeTitle": "Vides landšafta dizains",
+    "environmentalLandscapeDescription": "Koncentrējas uz ilgtspējīgām praksēm, mērķējot uz ārtelpu izveidi, kas ir draudzīgas videi, taupa ūdeni, atbalsta vietējās ekosistēmas un izmanto materiālus un augus, kas ir ilgtspējīgi un vietējie attiecīgajai teritorijai.",
+    "hardscapeDesignTitle": "Cieto ainavu dizains",
+    "hardscapeDesignDescription": "Koncentrējas uz neorganiskajiem landšafta dizaina elementiem, piemēram, terasēm, sienām, celiņiem, brauktuvēm un citām struktūrām, kas izgatavotas no koka, akmens, betona un metāla.",
+    "packingDesign": "IEPAKOJUMA DIZAINS",
+    "structuralDesignTitle": "Strukturālais dizains",
+    "structuralDesignDescription": "Koncentrējas uz iepakojuma formu un stabilitāti. Tas ietver iepakojuma inženieriju, lai aizsargātu produktu transportēšanas laikā, nodrošinātu tā integritāti veikalu plauktos un atvieglotu uzglabāšanu un lietošanu. Strukturālais dizains ir būtisks gan funkcionalitātei, gan unikāla silueta radīšanai, kas var piesaistīt patērētājus.",
+    "graphicDesignTitle": "Grafiskais dizains",
+    "graphicDesignDescription": "Šis aspekts aptver iepakojuma vizuālos elementus, ieskaitot tipogrāfiju, logotipus, krāsas un attēlus. Grafiskais dizains iepakojumā nodod zīmola vēstījumu, produkta informāciju un atšķir produktu no konkurentiem plauktā. Tas ir vitāli svarīgs zīmolībai un emocionālās saites veidošanai ar patērētājiem.",
+    "sustainableDesignTitle": "Ilgtspējīgs dizains",
+    "sustainableDesignDescription": "Arvien svarīgāks, ilgtspējīgs iepakojuma dizains koncentrējas uz minimālu ietekmi uz vidi. Tas ietver ekoloģiski draudzīgu materiālu izmantošanu, atkritumu samazināšanu caur dizainu un iepakojuma dzīves cikla apsvērumu. Ilgtspējīgs dizains mērķē apmierināt pašreizējās iepakojuma vajadzības, neapdraudot nākotnes paaudžu spēju apmierināt savas.",
+    "interactiveDesignTitle": "Interaktīvais dizains",
+    "interactiveDesignDescription": "Šī jaunā kategorija ietver elementus, kas uzlabo patērētāja mijiedarbību ar produktu caur iepakojumu. Tas var iekļaut tehnoloģijas, piemēram, QR kodus vai paplašināto realitāti, vai fiziskus elementus, piemēram, unikālas aizdares, tekstūras vai interaktīvus elementus, kas uzlabo atpakojuma pieredzi.",
+    "graphicDesign": "GRAFISKAIS DIZAINS",
+    "brandIdentityTitle": "Zīmola identitātes un logotipu dizains",
+    "brandIdentityDescription": "Koncentrējas uz zīmola vizuālās identitātes radīšanu, ieskaitot logotipus un zīmola materiālus, lai nodrošinātu atpazīstamību.",
+    "webAndUiDesignTitle": "Tīmekļa un lietotāja interfeisa dizains",
+    "webAndUiDesignDescription": "Ietver digitālo interfeisu dizainu, prioritāti piešķirot estētikai, lietojamībai un lietotāja pieredzei tīmekļa vietnēm un lietotnēm.",
+    "printAndPublicationDesignTitle": "Drukātas produkcijas un publikāciju dizains",
+    "printAndPublicationDesignDescription": "Nodarbojas ar drukātu materiālu, piemēram, grāmatu, brošūru un plakātu dizainu, uzsvaru liekot uz izkārtojumu un vizuālo pievilcību."
+  },
+  "AboutSection": {
+    "welcome": "Laipni lūdzam SE'YUL",
+    "about": "PAR MUMS",
+    "introduction": "Laipni lūdzam SE'YUL, kur mēs specializējamies unikālu un pievilcīgu dizainu radīšanā.",
+    "expertise": "Mūsu ekspertīze ir profesionālu dizaina risinājumu sniegšana, kas atstāj ilgstošu iespaidu un uzlabo zīmola identitāti.",
+    "servicesOffered": "Sākot no vizītkartēm līdz interjeriem, eksterjeriem un ainavu dizainam, mēs realizējam jūsu redzējumu ar rūpīgu uzmanību pret detaļām un inovatīvu domāšanu.",
+    "sustainabilityFocus": "SE'YUL prioritāte ir ilgtspējīgs, videi draudzīgs dizains, izmantojot atbildīgus materiālus, lai jūsu zīmols ne tikai spīdētu, bet arī respektētu vidi.",
+    "tailoredDesign": "Mēs pielāgojam mūsu dizainus jūsu zīmola ētikai caur sadarbības procesu, nodrošinot personalizētu pieredzi, kas piesaista jūsu auditoriju.",
+    "innovation": "Apņemoties sekot jaunākajām tendencēm un tehnoloģijām, SE'YUL ir radošās inovācijas avangardā, sākot no interaktīviem digitālajiem elementiem līdz jauniem telpiskajiem estētikas risinājumiem."
+  },
+  "ProjectsSection": {
+    "ourPortfolio": "MŪSU PORTFELIS",
+    "projects": "PROJEKTI",
+    "exteriorDesign": "Ārpuses dizains",
+    "interiorDesign": "Iekštelpu dizains",
+    "modernExteriorDesign": "Moderns ārpuses dizains",
+    "brandIdentity": "Zīmola identitāte un logotipa dizains",
+    "minimalism": "Minimalisms",
+    "luxuryDesign": "Luksusa ārpuses un ainavas dizains"
+  },
+  "Footer": {
+    "getInTouch": "SAZINIES AR MUMS",
+    "contact": "KONTAKTI",
+    "projects": "projekti",
+    "latviaEurope": "LATVIJA, EIROPA",
+    "rigaLatvia": "Rīga, Latvija",
+    "information": "INFORMĀCIJA",
+    "rightsReserved": "2024 SIA SeYul Visas tiesības aizsargātas"
+  }
+}
