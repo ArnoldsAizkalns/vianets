@@ -3,7 +3,13 @@ import nodemailer from 'nodemailer'
 import Mail from 'nodemailer/lib/mailer'
 
 export async function POST(request: NextRequest) {
-  const { email, name, message, phone, countryCode } = await request.json()
+  const { email, name, message, phone, countryCode, specialOffer } =
+    await request.json()
+  const subject = specialOffer
+    ? 'СПЕЦПРЕДЛОЖЕНИЕ'
+    : `Message from ${name} (${email})`
+  console.log(`Отправка письма с темой: ${subject}`)
+  console.log('Received specialOffer:', specialOffer)
 
   const transport = nodemailer.createTransport({
     service: 'gmail',
@@ -18,7 +24,7 @@ export async function POST(request: NextRequest) {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
 
-    subject: `Message from ${name} (${email})`,
+    subject: subject,
     html: `
     <div style="width: 450px; margin: 0 auto;">
     <div style="text-align: center; font-size: 24px;">Lovely Eco House</div>

@@ -3,15 +3,16 @@ import React from 'react'
 
 export default function AboutPage() {
   return (
-    <div className="pt-12 md:pt-24 max-w-screen-2xl mx-auto px-4 md:px-6">
-      <div className="pb-12 md:pb-24">
-        <div className="pb-6">
+    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+      <div className="pb-5 md:pb-20">
+        <div className="">
           <h1 className="text-4xl md:text-[96px]">Проекты</h1>
         </div>
-        <div className="border-t mx-auto border-neutral-400 w-full border-dashed mt-4 mb-8"></div>
       </div>
 
-      <div className="pb-24">
+      <div className="border-t mx-auto border-neutral-400 w-full pb-5 border-dashed"></div>
+
+      <div className="pb-10">
         <div className="flex flex-col gap-1 flex-auto ">
           <Image
             src="/projects/siphouse1.jpeg"
@@ -24,7 +25,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="pb-24 flex gap-3">
+      <div className="pb-10 flex gap-3">
         <div className="flex flex-col gap-1 flex-auto w-1/2">
           <Image
             className="full-width-height-image"
@@ -63,7 +64,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="pb-24 flex gap-3">
+      <div className="pb-10 flex gap-3">
         <div className="flex flex-col gap-1 flex-auto">
           <Image
             className="full-width-height-image"
@@ -102,7 +103,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="pb-24 flex gap-3">
+      <div className="pb-10 flex gap-3">
         <div className="flex w-1/2 gap-3">
           <div className="flex flex-col gap-1 flex-auto ">
             <Image

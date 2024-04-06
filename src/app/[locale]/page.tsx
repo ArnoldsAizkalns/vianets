@@ -1,14 +1,11 @@
 import { useTranslations } from 'next-intl'
 import PageLayout from '@/components/PageLayout'
-
 import MainTitleSection from '@/components/MainTitleSection'
 import AboutSection from '@/components/AboutSection'
-import Slider from '@/components/Slider'
 import Questions from '@/components/Questions'
 
 export default function IndexPage() {
   const t = useTranslations('IndexPage')
-
   const faqs = [
     {
       question:
@@ -43,12 +40,12 @@ export default function IndexPage() {
     {
       question: 'Как с нами связаться?',
       answer:
-        'Вы можете связаться с нами по телефону +7 (XXX) XXX-XX-XX или отправить электронное письмо на адрес example@example.com.',
+        'Вы можете связаться с нами по телефону +371 29716973 или отправить электронное письмо на адрес example@example.com.',
     },
     {
       question: 'Где мы находимся?',
       answer:
-        'Наш офис расположен по адресу улица Улица, дом 123, город, страна.',
+        'Наш офис расположен по адресу Imantas 8. līnija 11, Rīga, Latvija.',
     },
   ]
 

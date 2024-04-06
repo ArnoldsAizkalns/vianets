@@ -14,6 +14,7 @@ export type FormData = {
   phone: string
   message: string
   countryCode: string
+  specialOffer?: boolean
 }
 
 const EuropeanCountryCodes = [
@@ -40,16 +41,21 @@ const EuropeanCountryCodes = [
   { name: 'Brazil', code: '+55', countryCode: 'BR' },
 ]
 
-const ContactForm = () => {
+const ContactForm = ({ specialOffer }: { specialOffer: boolean }) => {
   const [selectedCountry, setSelectedCountry] = useState(
     EuropeanCountryCodes[0]
   )
-  const [formSubmitted, setFormSubmitted] = useState(false) // Новое состояние для отслеживания отправки формы
+  const [formSubmitted, setFormSubmitted] = useState(false)
   const [countryCodeSelected, setCountryCodeSelected] = useState(false)
   const { register, handleSubmit } = useForm<FormData>()
   const t = useTranslations('ContactForm')
 
   function onSubmit(data: FormData) {
+    console.log('Form submission with special offer:', specialOffer)
+    console.log(
+      'Sending email with data:',
+      JSON.stringify({ ...data, specialOffer })
+    )
     if (
       !data.name ||
       !data.email ||
@@ -60,7 +66,17 @@ const ContactForm = () => {
       toast.error('Please fill in all fields')
       return
     }
-    toast.success('Message Sent!!')
+    console.log(
+      'Sending email with data:',
+      JSON.stringify({ ...data, specialOffer })
+    )
+    sendEmail({ ...data, specialOffer: specialOffer })
+      .then((response) => {
+        toast.success(t('message_sent'))
+      })
+      .catch((error) => {
+        toast.error(t('error_sending_message'))
+      })
   }
 
   const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {

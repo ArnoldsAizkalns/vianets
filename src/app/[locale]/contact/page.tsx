@@ -1,20 +1,32 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ContactForm from '../../../components/ContactForm'
 import { useTranslations } from 'next-intl'
 import Credentials from '@/components/Credentials'
+import { useSearchParams } from 'next/navigation'
 
 export default function ContactPage() {
+  const [specialOffer, setSpecialOffer] = useState(false)
   const t = useTranslations('Footer')
+  const [searchParams] = useSearchParams()
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const searchParams = new URLSearchParams(window.location.search)
+      const offer = searchParams.get('specialOffer') === 'true'
+      console.log('Special offer from URL set to:', offer)
+      setSpecialOffer(offer)
+    }
+  }, [])
 
   return (
-    <div className="pt-12 md:pt-24 pb-12 max-w-screen-2xl mx-auto px-4 md:px-6">
-      <div className="md:pb-24 pb-12">
-        <div className="pb-6">
-          <h1 className="text-4xl md:text-[96px]">Contacts</h1>
+    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+      <div className="md:pb-20">
+        <div className="pb-5">
+          <h1 className="text-4xl md:text-[96px]">Контакты</h1>
         </div>
 
-        <div className="border-t mx-auto border-[#45464c] w-full border-dashed mt-4 mb-8"></div>
+        <div className="border-t mx-auto border-[#45464c] w-full border-dashed pb-5"></div>
 
         <div className="flex md:flex-row flex-col">
           <div className="pb-6 md:pb-0 services-container-1">
@@ -32,9 +44,9 @@ export default function ContactPage() {
 
       <div className="flex justify-center items-center">
         <div className="services-container-1 hidden lg:flex "></div>
-        <div className="services-container-2 items-center lg:items-start gap-12 lg:flex-row flex flex-col ">
-          <div className="max-w-[480px] w-full">
-            <ContactForm />
+        <div className="services-container-2 items-center lg:items-start gap-10 lg:flex-row flex flex-col ">
+          <div className="max-w-[480px] py-10 w-full">
+            <ContactForm specialOffer={specialOffer} />
           </div>
           <div className="max-w-[480px] w-full">
             <Credentials />
@@ -42,9 +54,9 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <div className="flex justify-center lg:justify-start">
+      <div className="flex pb-10 justify-center lg:justify-start">
         <div className="services-container-1 hidden lg:flex"></div>
-        <div className="pt-12 services-container-2 max-w-[480px] font-semibold">
+        <div className="pt-20 services-container-2 max-w-[480px] font-semibold">
           <h3 className="mx-auto">SIA &ldquo;Vianets&ldquo;</h3>
           <div className="border-t mx-auto border-[#45464c]"></div>
           <div className="mx-auto flex justify-between gap-2 mt-3">
@@ -52,7 +64,7 @@ export default function ContactPage() {
             <h3 className=" font-normal">40003545789</h3>
           </div>
           <div className="border-t mx-auto border-[#45464c]"></div>
-          <div className="mx-auto flex  justify-between items-end gap-2 mt-3">
+          <div className="mx-auto flex justify-between items-end gap-2 mt-3">
             <h3>Номер налогоплельщика:</h3>
             <h3 className="font-normal">LV40003545789</h3>
           </div>

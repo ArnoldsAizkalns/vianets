@@ -1,17 +1,21 @@
 import { FormData } from '../components/ContactForm'
 
-export function sendEmail(data: FormData) {
+interface EmailResponse {
+  message: string
+}
+export function sendEmail(data: FormData): Promise<EmailResponse> {
   const apiEndpoint = '/api/email'
 
-  fetch(apiEndpoint, {
+  return fetch(apiEndpoint, {
     method: 'POST',
     body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }).then((res) => {
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`)
+    }
+    return res.json() as Promise<EmailResponse>
   })
-    .then((res) => res.json())
-    .then((response) => {
-      alert(response.message)
-    })
-    .catch((err) => {
-      alert(err)
-    })
 }

@@ -12,6 +12,7 @@
     "sip panels": "Sip panels",
     "Mobile House": "Mobile House",
     "projects": "Projects",
+    "forClients": "Special Offers",
     "contact": "Contact",
     "rights": "©2024, All right reserved.",
     "privacy": "Privacy Policy",
@@ -39,6 +40,7 @@
     "email_placeholder": "Email ",
 
     "phone_placeholder": "Phone",
+    "message_sent": "Message Sent",
 
     "message_placeholder": "Message",
     "submit_button": "Submit Message",

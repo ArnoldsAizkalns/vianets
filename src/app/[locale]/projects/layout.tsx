@@ -13,7 +13,7 @@ export default function PageLayout({ children }: Props) {
   return (
     <div>
       <header>
-        <h1 className="md:hidden flex font-medium text-2xl pt-3 leading-5 text-black justify-center">
+        <h1 className="md:hidden flex font-medium text-2xl pt-5 leading-5 text-black justify-center">
           Lovely Eco House
         </h1>
         <Navigation />

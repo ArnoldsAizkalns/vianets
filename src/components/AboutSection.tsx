@@ -6,8 +6,8 @@ export default function AboutSection() {
   const t = useTranslations('AboutSection')
 
   return (
-    <div id="about" className="py-10 md:py-20 ">
-      <div className="bg-[#45464c] flex mt-12 w-full h-[210px]">
+    <div id="about" className="pt-12">
+      <div className="bg-[#45464c] flex mt-10 w-full h-[210px]">
         <div className="text-white flex w-full justify-between">
           <div className="md:flex-row flex flex-col justify-between w-full items-center text-center">
             <div className="flex-1 flex-col flex items-center">
@@ -39,17 +39,17 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-      <div className="pt-24 max-w-screen-2xl mx-auto px-4 md:px-6">
-        <div className="md:text-[32px] text-[22px]">
-          <h3 className="font-semibold">
+      <div className="pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+        <div className="md:text-[32px] text-center text-[22px]">
+          <h3 className="font-semibold ">
             Наша компания производит SIP панели, а также обеспечивает
             строительство из них любых утеплённых конструкций, в том числе
             мобильных (на колёсной платформе) и стационарных домов.
           </h3>
         </div>
-        <div className="flex pt-12">
+        <div className="flex pt-10">
           <div className="md:flex-1"></div>
-          <div className="md:flex-1 font-medium flex flex-col gap-3">
+          <div className="md:flex-1 font-medium flex flex-col gap-5">
             <h3 className="font-semibold text-lg">
               Преимущества технологии SIP панелей:
             </h3>
@@ -82,7 +82,7 @@ export default function AboutSection() {
             </p>
           </div>
         </div>
-        <div className="pt-12">
+        <div className="pt-10">
           <Image
             src="/about/about-img.jpg"
             width={1536}

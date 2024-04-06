@@ -18,16 +18,16 @@ const FAQ: React.FC<FAQProps> = ({ faqs }) => {
   }
 
   return (
-    <div className="max-w-screen-2xl mx-auto py-12">
-      <div className="pb-6 md:pb-12 px-4 md:px-6">
+    <div className="max-w-screen-2xl mx-auto md:py-20 py-10">
+      <div className="pb-10 md:pb-10 px-4 md:px-6">
         <h2 className="text-3xl md:text-[64px] font-medium ">
           Часто задаваемые вопросы
         </h2>
       </div>
       {faqs.map((faq, index) => (
-        <div key={index} className="mb-4">
+        <div key={index} className="">
           <button
-            className="flex justify-between items-center w-full text-[20px] md:text-[24px] py-2 px-4 md:px-6 text-left border-neutral-400 border-dashed border-t"
+            className="flex justify-between items-center w-full text-[20px] md:text-[24px] py-5 px-4 md:px-6 text-left border-neutral-400 border-dashed border-t"
             onClick={() => toggleFAQ(index)}
           >
             <span>{faq.question}</span>

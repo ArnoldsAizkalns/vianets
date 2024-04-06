@@ -80,7 +80,7 @@ export default class CarouselComponent extends React.Component<
             infinite
             visibleSlides={visibleSlides}
             currentSlide={1.5}
-            className="pb-10 pt-10"
+            className="pb-5 pt-5"
           >
             <Slider>
               <Slide className="" index={0}>

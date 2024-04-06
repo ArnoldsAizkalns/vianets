@@ -13,11 +13,11 @@ export default function PageLayout({ children }: Props) {
   return (
     <div>
       <header>
-        <div>
-          <h1 className="lg:hidden flex font-medium text-2xl pt-3 leading-6 text-black justify-center">
+        <a href="/">
+          <h1 className="lg:hidden flex font-medium text-2xl pt-5 leading-6 text-black justify-center">
             Lovely Eco House
           </h1>
-        </div>
+        </a>
         <Navigation />
       </header>
       <main>{children}</main>

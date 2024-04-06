@@ -18,11 +18,12 @@ export default function Navigation() {
     { title: t('sip panels'), path: '/sippanels' },
     { title: t('Mobile House'), path: '/mobhome' },
     { title: t('projects'), path: '/projects' },
+    { title: t('forClients'), path: '/offer' },
     { title: t('contact'), path: '/contact' },
   ]
 
   return (
-    <nav className="sticky w-full bg-white py-4 md:py-6 ">
+    <nav className="sticky w-full bg-white py-5 ">
       <div className="max-w-screen-2xl px-4 md:px-6 mx-auto flex items-center justify-between">
         <div className="block flex-none lg:hidden">
           <Mobile />
@@ -35,12 +36,12 @@ export default function Navigation() {
         <div className="flex items-center">
           <div className="flex justify-center gap-4 w-full ">
             {menu.length ? (
-              <ul className="hidden gap-6 lg:flex md:items-center">
+              <ul className="hidden gap-3 xl:gap-6 lg:flex md:items-center">
                 {menu.map(({ title, path }) => (
                   <li key={title}>
                     <Link
                       href={path}
-                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-xs"
+                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-[12px] xl:text-xs"
                     >
                       {title}
                     </Link>
