@@ -3,14 +3,14 @@ import React from 'react'
 
 export default function SipPanelPage() {
   return (
-    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+    <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
       <div className="pb-4">
         <div className="md:pb-5">
           <h1 className="text-4xl md:text-[96px]">СИП панели</h1>
         </div>
       </div>
 
-      <div className="border-t mx-auto border-neutral-400 w-full border-dashed pt-5  md:mb-8"></div>
+      <div className="border-t mx-auto border-neutral-400 w-full border-dashed pt-5 md:mb-8"></div>
 
       <div className="flex">
         <div className="services-container-1 hidden md:flex"></div>
@@ -100,7 +100,7 @@ export default function SipPanelPage() {
         </div>
       </div>
 
-      <div className="pt-10 md:pt-20 pb-10">
+      <div className="pt-20 pb-10">
         <div className="flex pb-5">
           <div className="services-container-1 hidden md:flex"></div>
           <h2 className="services-container-2 text-[30px] md:text-[40px] leading-tight font-semibold">

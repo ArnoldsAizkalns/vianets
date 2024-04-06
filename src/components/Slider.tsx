@@ -55,9 +55,9 @@ export default class CarouselComponent extends React.Component<
     let visibleSlides = 3.5
 
     if (width < 768) {
-      visibleSlides = 2
+      visibleSlides = 1.3
     } else if (width < 1024) {
-      visibleSlides = 3
+      visibleSlides = 2
     } else if (width < 1280) {
       visibleSlides = 3
     } else if (width < 1530) {
@@ -79,7 +79,7 @@ export default class CarouselComponent extends React.Component<
             totalSlides={10}
             infinite
             visibleSlides={visibleSlides}
-            currentSlide={1.5}
+            currentSlide={1}
             className="pb-5 pt-5"
           >
             <Slider>
@@ -139,7 +139,8 @@ export default class CarouselComponent extends React.Component<
                 marginTop: '10px',
                 display: 'flex',
                 justifyContent: 'right',
-                gap: '20px',
+                marginRight: '10px',
+                gap: '25px',
               }}
             >
               <ButtonBack>
@@ -149,7 +150,7 @@ export default class CarouselComponent extends React.Component<
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-7 h-7"
+                  className="w-8 h-8"
                 >
                   <path
                     strokeLinecap="round"
@@ -165,7 +166,7 @@ export default class CarouselComponent extends React.Component<
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-7 h-7"
+                  className="w-8 h-8"
                 >
                   <path
                     strokeLinecap="round"

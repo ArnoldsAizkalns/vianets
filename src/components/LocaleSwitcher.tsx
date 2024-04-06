@@ -4,7 +4,7 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <div className="flex gap-3 md:gap-6 text-lg md:text-sm">
+    <div className="flex justify-end gap-3 md:gap-6 text-[20px] md:text-sm">
       <button
         className="text-neutral-500 font-medium leading-3 hover:text-[#211c1d]"
         onClick={() => changeLocale('en')}

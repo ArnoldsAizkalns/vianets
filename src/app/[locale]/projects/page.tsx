@@ -3,14 +3,14 @@ import React from 'react'
 
 export default function AboutPage() {
   return (
-    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
-      <div className="pb-5 md:pb-20">
-        <div className="">
+    <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
+      <div className="pb-5 ">
+        <div className="md:pb-5">
           <h1 className="text-4xl md:text-[96px]">Проекты</h1>
         </div>
       </div>
 
-      <div className="border-t mx-auto border-neutral-400 w-full pb-5 border-dashed"></div>
+      <div className="border-t mx-auto border-neutral-400 w-full pt-5 md:pt-10 border-dashed"></div>
 
       <div className="pb-10">
         <div className="flex flex-col gap-1 flex-auto ">

@@ -4,17 +4,17 @@ import React from 'react'
 
 export default function MobileHousePage() {
   return (
-    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+    <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
       <div className="pb-5">
-        <div className=" md:pb-6">
+        <div className="md:pb-5">
           <h1 className="text-4xl md:text-[96px]">Мобильные дома</h1>
         </div>
       </div>
 
-      <div className="border-t mx-auto border-neutral-400 w-full border-dashed pt-4 md:mb-8"></div>
+      <div className="border-t mx-auto border-neutral-400 w-full border-dashed pt-4 md:pt-8"></div>
 
-      <div className="">
-        <div className="flex flex-col md:flex-row pb-4">
+      <div className="md:pb-5">
+        <div className="flex flex-col md:flex-row pb-5">
           <p className="services-container-1"></p>
           <div className="services-container-2 font-semibold ">
             <div className="flex items-center">
@@ -81,7 +81,7 @@ export default function MobileHousePage() {
       </div>
       <Slider isMobile={false} isTablet={false} isDesktop={false} />
 
-      <div className=" pb-10">
+      <div className="pt-12 pb-10">
         <div className="flex pb-5">
           <div className="services-container-1 hidden md:flex"></div>
           <h2 className="services-container-2 text-[36px] md:text-[48px] leading-tight font-semibold">

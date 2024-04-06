@@ -19,7 +19,7 @@ export default function Footer() {
     { title: t('sip panels'), path: '/sippanels' },
     { title: t('Mobile House'), path: '/mobhome' },
     { title: t('projects'), path: '/projects' },
-    { title: t('forClients'), path: '/forClients' },
+    { title: t('forClients'), path: '/offer' },
     { title: t('contact'), path: '/contact' },
   ]
   const docs = [
@@ -28,7 +28,7 @@ export default function Footer() {
   ]
 
   return (
-    <nav className="sticky w-full pt-10 bg-white pb-5 md:py-6 ">
+    <nav className="sticky w-full pt-10 bg-white pb-5 ">
       <div className="max-w-screen-2xl px-4 md:px-6 mx-auto flex items-center justify-between">
         <Link href="/" className="hidden lg:block services-container-1">
           <h1 className={`${rob.className} text-2xl font-bold tracking-wider`}>

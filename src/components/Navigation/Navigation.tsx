@@ -23,9 +23,9 @@ export default function Navigation() {
   ]
 
   return (
-    <nav className="sticky w-full bg-white py-5 ">
+    <nav className="lg:fixed top-0 z-10 sticky lg:shadow-md w-full bg-white py-5 ">
       <div className="max-w-screen-2xl px-4 md:px-6 mx-auto flex items-center justify-between">
-        <div className="block flex-none lg:hidden">
+        <div className="flex w-24 flex-none lg:hidden">
           <Mobile />
         </div>
         <Link href="/" className="hidden lg:block">
@@ -33,15 +33,15 @@ export default function Navigation() {
             Lovely Eco House
           </h1>
         </Link>
-        <div className="flex items-center">
+        <div className="hidden lg:flex items-center">
           <div className="flex justify-center gap-4 w-full ">
             {menu.length ? (
-              <ul className="hidden gap-3 xl:gap-6 lg:flex md:items-center">
+              <ul className=" gap-3 flex xl:gap-6 md:items-center">
                 {menu.map(({ title, path }) => (
                   <li key={title}>
                     <Link
                       href={path}
-                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-[12px] xl:text-xs"
+                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-[12px] xl:text-sm"
                     >
                       {title}
                     </Link>
@@ -51,18 +51,17 @@ export default function Navigation() {
             ) : null}
           </div>
         </div>
-        <div className="block lg:hidden">
-          <h1 className="text-3xl pr-6">
-            <a
-              className="flex justify-center items-center gap-2"
-              href="tel:+37129716973"
-            >
+        <div className="flex min-w-[160px] lg:hidden">
+          <h1 className="text-3xl">
+            <a className="flex items-center gap-2" href="tel:+37129716973">
               <AiFillPhone className="text-lg" />
               <p> +371 29716973</p>
             </a>
           </h1>
         </div>
-        <LocaleSwitcher />
+        <div className="w-24 ">
+          <LocaleSwitcher />
+        </div>
       </div>
     </nav>
   )

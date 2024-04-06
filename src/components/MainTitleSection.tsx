@@ -7,7 +7,7 @@ export default function MainTitleSection() {
   const t = useTranslations('MainTitleSection')
 
   return (
-    <div className="max-w-screen-2xl h-auto mx-auto pt-5 md:pt-20">
+    <div className="max-w-screen-2xl h-auto mx-auto md:pb-12 pt-5 md:pt-20 lg:pt-40">
       <div className="px-4 md:px-6 pb-10 md:pb-20">
         <div className="lg:text-[112px] tracking-[-0.05em] md:tracking-[-0.05em] font-medium md:text-5xl text-4xl">
           Производство и

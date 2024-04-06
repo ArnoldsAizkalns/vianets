@@ -20,16 +20,16 @@ export default function ContactPage() {
   }, [])
 
   return (
-    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+    <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
       <div className="md:pb-20">
         <div className="pb-5">
           <h1 className="text-4xl md:text-[96px]">Контакты</h1>
         </div>
 
-        <div className="border-t mx-auto border-[#45464c] w-full border-dashed pb-5"></div>
+        <div className="border-t mx-auto border-[#45464c] w-full border-dashed md:mt-5 pb-5 md:pb-10"></div>
 
         <div className="flex md:flex-row flex-col">
-          <div className="pb-6 md:pb-0 services-container-1">
+          <div className="pb-5 md:pb-0 services-container-1">
             <h3>Подскажем</h3>
           </div>
           <div className="flex-auto services-container-2">
@@ -45,7 +45,7 @@ export default function ContactPage() {
       <div className="flex justify-center items-center">
         <div className="services-container-1 hidden lg:flex "></div>
         <div className="services-container-2 items-center lg:items-start gap-10 lg:flex-row flex flex-col ">
-          <div className="max-w-[480px] py-10 w-full">
+          <div className="max-w-[480px] py-10 md:py-0 w-full">
             <ContactForm specialOffer={specialOffer} />
           </div>
           <div className="max-w-[480px] w-full">

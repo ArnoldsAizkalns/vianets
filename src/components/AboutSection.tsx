@@ -6,7 +6,7 @@ export default function AboutSection() {
   const t = useTranslations('AboutSection')
 
   return (
-    <div id="about" className="pt-12">
+    <div id="about" className=" pb-10">
       <div className="bg-[#45464c] flex mt-10 w-full h-[210px]">
         <div className="text-white flex w-full justify-between">
           <div className="md:flex-row flex flex-col justify-between w-full items-center text-center">

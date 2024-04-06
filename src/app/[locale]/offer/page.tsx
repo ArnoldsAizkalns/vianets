@@ -3,14 +3,14 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 
 export default function SipPanelPage() {
   return (
-    <div className="pt-5 md:pt-20 max-w-screen-2xl mx-auto px-4 md:px-6">
+    <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
       <div className="pb-5">
         <div className="md:pb-5">
           <h1 className="text-4xl md:text-[96px]">Спецпредложения</h1>
         </div>
       </div>
 
-      <div className="border-t mx-auto border-neutral-400 w-full pt-5 border-dashed"></div>
+      <div className="border-t mx-auto border-neutral-400 w-full pt-5 md:mb-8 border-dashed"></div>
 
       <div className="">
         <div className="flex flex-col md:flex-row pb-5">
@@ -54,7 +54,7 @@ export default function SipPanelPage() {
         </div>
       </div>
 
-      <div className="">
+      <div className="md:pb-5">
         <div className="flex flex-col md:flex-row pb-5">
           <p className="services-container-1"></p>
           <h2 className="services-container-2 text-[30px] md:text-[40px] leading-tight font-semibold">
