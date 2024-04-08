@@ -1,6 +1,4 @@
 'use client'
-import Image from 'next/image'
-import Link from 'next/link'
 import React, { useEffect } from 'react'
 
 const Policy = () => {
@@ -9,9 +7,9 @@ const Policy = () => {
   }, [])
 
   return (
-    <div className=" mx-auto w-full pt-5 pb-10 h-auto">
-      <div className="h-auto pb-10 min-w-max  pt-5 bg-neutral-800">
-        <div className="pt-5 px-2 max-w-screen-2xl m-auto">
+    <div className=" mx-auto w-full  pb-10 h-auto">
+      <div className="h-auto pb-10 min-w-max bg-neutral-800">
+        <div className="pt-24 px-2 max-w-screen-2xl m-auto">
           <h2 className="text-4xl px-2 font-bold text-white ">
             Privacy Policy
           </h2>
