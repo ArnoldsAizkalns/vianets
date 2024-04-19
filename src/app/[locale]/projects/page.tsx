@@ -6,7 +6,9 @@ export default function AboutPage() {
     <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
       <div className="pb-5 ">
         <div className="md:pb-5">
-          <h1 className="text-4xl md:text-[96px]">Проекты</h1>
+          <h1 className="lg:text-6xl tracking-[-0.05em] md:tracking-[-0.05em] font-medium md:text-5xl text-4xl">
+            Проекты
+          </h1>
         </div>
       </div>
 

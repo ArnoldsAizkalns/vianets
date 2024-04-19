@@ -23,13 +23,15 @@ export default function Navigation() {
   ]
 
   return (
-    <nav className="lg:fixed top-0 z-10 sticky lg:shadow-md w-full bg-white py-5 ">
+    <nav className="lg:fixed top-0 z-10 sticky lg:shadow-md w-full bg-white py-[24px] ">
       <div className="max-w-screen-2xl px-4 md:px-6 mx-auto flex items-center justify-between">
         <div className="flex w-24 flex-none lg:hidden">
           <Mobile />
         </div>
         <Link href="/" className="hidden lg:block">
-          <h1 className={`${rob.className} text-2xl font-bold tracking-wider`}>
+          <h1
+            className={`${rob.className} text-[34px] font-bold tracking-wider`}
+          >
             Lovely Eco House
           </h1>
         </Link>
@@ -41,7 +43,7 @@ export default function Navigation() {
                   <li key={title}>
                     <Link
                       href={path}
-                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-[12px] xl:text-sm"
+                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-[12px] xl:text-[18px]"
                     >
                       {title}
                     </Link>

@@ -30,6 +30,10 @@ p {
   outline: none;
 }
 
+.hover-box {
+  @apply bg-neutral-200 text-[#45464c] hover:bg-[#45464c] hover:text-white;
+}
+
 .wrapper {
   padding-top: calc(var(--mantine-spacing-xl) * 2);
   padding-bottom: calc(var(--mantine-spacing-xl) * 2);
@@ -73,11 +77,12 @@ p {
   object-position: center;
 }
 .services-container-3 {
-  width: 65%;
+  width: 85%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 @media (max-width: 768px) {
   .semi-width-height-image,
   .services-container-1,

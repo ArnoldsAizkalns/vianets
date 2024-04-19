@@ -23,7 +23,9 @@ export default function ContactPage() {
     <div className="pt-5 md:pt-20 lg:pt-40 max-w-screen-2xl mx-auto px-4 md:px-6">
       <div className="md:pb-20">
         <div className="pb-5">
-          <h1 className="text-4xl md:text-[96px]">Контакты</h1>
+          <h1 className="lg:text-6xl tracking-[-0.05em] md:tracking-[-0.05em] font-medium md:text-5xl text-4xl">
+            Контакты
+          </h1>
         </div>
 
         <div className="border-t mx-auto border-[#45464c] w-full border-dashed md:mt-5 pb-5 md:pb-10"></div>
@@ -57,24 +59,27 @@ export default function ContactPage() {
       <div className="flex pb-10 justify-center lg:justify-start">
         <div className="services-container-1 hidden lg:flex"></div>
         <div className="pt-20 services-container-2 max-w-[480px] font-semibold">
-          <h3 className="mx-auto">SIA &ldquo;Vianets&ldquo;</h3>
-          <div className="border-t mx-auto border-[#45464c]"></div>
+          <div className="flex justify-between">
+            <h3 className="">Название</h3>
+            <h3 className="font-normal">SIA &ldquo;Vianets&ldquo;</h3>
+          </div>
+          <div className="border-t mx-auto border-neutral-200"></div>
           <div className="mx-auto flex justify-between gap-2 mt-3">
             <h3>Рег. номер:</h3>
-            <h3 className=" font-normal">40003545789</h3>
+            <h3 className="font-normal">40003545789</h3>
           </div>
-          <div className="border-t mx-auto border-[#45464c]"></div>
+          <div className="border-t mx-auto border-neutral-200"></div>
           <div className="mx-auto flex justify-between items-end gap-2 mt-3">
             <h3>Номер налогоплельщика:</h3>
             <h3 className="font-normal">LV40003545789</h3>
           </div>
 
-          <div className="border-t mx-auto border-[#45464c]"></div>
+          <div className="border-t mx-auto border-neutral-200"></div>
           <div className="mx-auto flex  justify-between gap-2 mt-3">
             <h3>Адресс:</h3>
             <h3 className=" font-normal">Slokas 201-14, Riga</h3>
           </div>
-          <div className="border-t mx-auto border-[#45464c]"></div>
+          <div className="border-t mx-auto border-neutral-200"></div>
         </div>
       </div>
     </div>

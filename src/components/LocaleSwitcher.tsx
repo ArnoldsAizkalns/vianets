@@ -1,6 +1,16 @@
 export default function LocaleSwitcher() {
-  const changeLocale = (locale: any) => {
-    window.location.href = `/${locale}`
+  const changeLocale = (locale: string) => {
+    // Определяем текущий языковой префикс и путь
+    const currentLocaleMatch =
+      window.location.pathname.match(/^\/(en|lv|ru)(\/|$)/)
+
+    // Удаляем текущий языковой префикс, если он есть
+    const newPath = currentLocaleMatch
+      ? window.location.pathname.replace(currentLocaleMatch[0], '/')
+      : window.location.pathname
+
+    // Обновляем URL, сохраняя текущий путь и добавляя новый языковый префикс
+    window.location.href = `/${locale}${newPath}`
   }
 
   return (

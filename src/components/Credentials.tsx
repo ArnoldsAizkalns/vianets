@@ -25,7 +25,7 @@ const Credentials = () => {
           </a>
         </div>
       </div>
-      <div className="border-t mx-auto border-[#45464c] w-full "></div>
+      <div className="border-t mx-auto border-neutral-200 w-full "></div>
       <div className="flex text-right mt-3 justify-between">
         <h3 className="font-medium">Имейл</h3>
         <div>
@@ -39,7 +39,7 @@ const Credentials = () => {
           <h3 className="duration-100 hover:scale-110">info@lehin.eu</h3>
         </a>
       </div>
-      <div className="border-t mx-auto border-[#45464c] w-full "></div>
+      <div className="border-t mx-auto border-neutral-200 w-full "></div>
       <div className="flex  mt-3 justify-between">
         <h3 className="font-medium">Адресс</h3>
         <h3
@@ -56,7 +56,7 @@ const Credentials = () => {
           className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
           id="my-modal"
         >
-          <div className="relative top-52  mx-auto p-5 border w-96 shadow-lg rounded-xs bg-white">
+          <div className="relative top-52  mx-auto p-5 w-96 shadow-lg rounded-xs bg-white">
             <div className="mt-3 text-center">
               <span className="block text-xl font-medium text-gray-900">
                 Open address in:
@@ -91,7 +91,7 @@ const Credentials = () => {
           </div>
         </div>
       )}
-      <div className="border-t mx-auto border-[#45464c] w-full "></div>
+      <div className="border-t mx-auto border-neutral-200 w-full "></div>
     </div>
   )
 }

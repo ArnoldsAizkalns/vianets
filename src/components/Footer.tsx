@@ -1,119 +1,77 @@
 'use client'
 import Link from 'next/link'
 import { BsFacebook } from 'react-icons/bs'
-import { FaTiktok } from 'react-icons/fa'
-import { AiFillInstagram, AiFillPhone } from 'react-icons/ai'
+import { FaTelegram, FaTiktok, FaWhatsapp } from 'react-icons/fa'
+import { AiFillInstagram, AiFillPhone } from 'react-icons/ai' // Импорт всех иконок из одного файла (предполагается, что вы объедините их)
 import { useTranslations } from 'next-intl'
-import { Roboto_Condensed } from 'next/font/google'
 import LocaleSwitcher from './LocaleSwitcher'
 
-const rob = Roboto_Condensed({
-  weight: '800',
-  subsets: ['latin'],
-})
 export default function Footer() {
   const t = useTranslations('Navigation')
 
-  const menu = [
-    { title: t('about'), path: '/' },
-    { title: t('sip panels'), path: '/sippanels' },
-    { title: t('Mobile House'), path: '/mobhome' },
-    { title: t('projects'), path: '/projects' },
-    { title: t('forClients'), path: '/offer' },
-    { title: t('contact'), path: '/contact' },
-  ]
-  const docs = [
-    { title: t('rights'), path: '/' },
-    { title: t('privacy'), path: '/privacy' },
-  ]
+  const docs = [{ title: t('privacy'), path: '/privacy' }]
 
   return (
-    <nav className="sticky w-full pt-10 bg-white pb-5 ">
+    <nav className="sticky w-full pt-10 bg-white pb-5">
       <div className="max-w-screen-2xl px-4 md:px-6 mx-auto flex items-center justify-between">
-        <Link href="/" className="hidden lg:block services-container-1">
-          <h1 className={`${rob.className} text-2xl font-bold tracking-wider`}>
+        <div className="flex min-w-[200px] gap-3">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={process.env.NEXT_PUBLIC_INSTAGRAM_URL}
+          >
+            <AiFillInstagram size={24} />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={process.env.NEXT_PUBLIC_FACEBOOK_URL}
+          >
+            <BsFacebook size={22} />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={process.env.NEXT_PUBLIC_TIKTOK_URL}
+          >
+            <FaTiktok size={20} />
+          </a>
+        </div>
+
+        <div className="hidden lg:flex justify-center items-center">
+          <h1 className="text-2xl font-bold tracking-wider">
             Lovely Eco House
           </h1>
-        </Link>
-        <div className="flex items-center">
-          <div className="flex justify-center gap-4 w-full ">
-            {menu.length ? (
-              <ul className="hidden gap-3 xl:gap-6 lg:flex lg:justify-center md:items-center">
-                {menu.map(({ title, path }) => (
-                  <li key={title}>
-                    <Link
-                      href={path}
-                      className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-[12px] xl:text-xs"
-                    >
-                      {title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            ) : null}
-          </div>
         </div>
-        <div className="block w-full lg:hidden">
-          <h1 className="text-3xl leading-3 max-w-[180px] pr-6">
-            <a
-              className="flex justify-between items-center "
-              href="tel:+37129716973"
-            >
-              <AiFillPhone className="text-lg" />
-              <p> +371 29716973</p>
-            </a>
-          </h1>
-        </div>
-        <div className="services-container-1">
-          <div className="flex gap-3 justify-end">
-            <span>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={process.env.NEXT_PUBLIC_INSTAGRAM_URL}
-              >
-                <AiFillInstagram size={20} />
-              </a>
-            </span>
-            <span>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={process.env.NEXT_PUBLIC_FACEBOOK_URL}
-              >
-                <BsFacebook size={18} />
-              </a>
-            </span>
-            <span>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={process.env.NEXT_PUBLIC_TIKTOK_URL}
-              >
-                <FaTiktok size={16} />
-              </a>
-            </span>
-          </div>
+
+        <div className="flex items-center min-w-[200px] gap-3">
+          <a href="https://wa.me/+37129716973">
+            <FaWhatsapp className="text-xl duration-100 hover:scale-125" />
+          </a>
+          <a href="https://web.telegram.org/k/#@tinyhouseeu">
+            <FaTelegram className="text-xl duration-100 hover:scale-125" />
+          </a>
+          <a href="tel:+37129716973">
+            <p className="duration-100 hover:scale-110">+371 29716973</p>
+          </a>
         </div>
       </div>
       <div className="border-t mx-auto border-neutral-400 w-full border-dashed my-5"></div>
-      <div className="pb-5">
-        <div className="flex justify-center gap-5 w-full ">
-          {docs.length ? (
-            <ul className="gap-6 md:flex text-center md:items-center">
-              {docs.map(({ title, path }) => (
-                <li key={title}>
-                  <Link
-                    href={path}
-                    className="uppercase hover:text-[#211c1d] text-neutral-500 font-semibold text-xs"
-                  >
-                    {title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          ) : null}
+      <div className="pb-5 flex items-center justify-center">
+        <div className="text-neutral-500 font-semibold text-sm">
+          {t('rights')}
         </div>
+        {docs.length && (
+          <ul className="ml-6 flex text-neutral-500 font-semibold text-xs">
+            {docs.map(({ title, path }) => (
+              <li key={title}>
+                <Link href={path} className="uppercase hover:text-[#211c1d]">
+                  {title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </nav>
   )
